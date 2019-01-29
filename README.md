@@ -12,7 +12,8 @@ Contains one BingSearch class which takes the arguments 'url' and 'query' and th
 
 The BingSearch class contains 2 functions; One to parse and print out the urls returned in the body of the search, and one to display the raw data returned in the headers, cookies and body.
 
-### Note: This app will return the header, cookies and body from any url (if any exist), not just Bing.com, when <code>BingSearch.print_data</code> is called. <code>BingSearch.print_links</code>, however, will probably return strange results if not run against a query to Bing.com, as it uses strings specific to the body of a Bing search to parse the links returned in the body.
+#### Note:
+ This app will return the header, cookies and body from any url (if any exist), not just Bing.com, when <code>BingSearch.print_data</code> is called. <code>BingSearch.print_links</code>, however, will probably return strange results if not run against a query to Bing.com, as it uses strings specific to the body of a Bing search to parse the links returned in the body.
 
 ## example
 
@@ -38,7 +39,7 @@ Output of calling <code>search.print_links</code>:<br>
 <code>https://www.youtube.com/watch?v=vTV4mr94ijk</code><br>
 <br>
 
-Output of calling <code>search.print_links</code>:<br>
+Output of calling <code>search.print_data</code>:<br>
 ```text
 Headers:
 {:cache_control=>"private, max-age=0", :transfer_encoding=>"chunked", :content_type=>"text/html;
