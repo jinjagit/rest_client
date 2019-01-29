@@ -4,8 +4,6 @@ require 'rest-client'
 
 class BingSearch
   def initialize(url, query)
-    @url = url
-    @query = query
     @data = RestClient.get(url, {:params => {:q => query}})
   end
 
@@ -16,8 +14,7 @@ class BingSearch
   end
 
   def print_links
-    raw = @data.body.split('b_algo"><h2><a href="')
-    raw = raw.drop(1)
+    raw = @data.body.split('b_algo"><h2><a href="').drop(1)
     links = []
     raw.each do |e|
       temp = e.split('" ')
