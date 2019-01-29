@@ -39,9 +39,7 @@ Output of calling <code>search.print_links</code>:<br>
 <br>
 
 Output of calling <code>search.print_links</code>:<br>
-<br>
-<code>
-```text
+<code>```text
 Headers:
 {:cache_control=>"private, max-age=0", :transfer_encoding=>"chunked", :content_type=>"text/html; charset=utf-8", :content_encoding=>"gzip", :expires=>"Tue, 29 Jan 2019 17:41:21 GMT", :vary=>"Accept-Encoding", :p3p=>"CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"", :set_cookie=>["SRCHD=AF=NOFORM; domain=.bing.com; expires=Sun, 23-Feb-2020 17:42:21 GMT; path=/", "SRCHUID=V=2&GUID=4DC3AAFA593A468FA74E404144B79FDE&dmnchg=1; domain=.bing.com; expires=Sun, 23-Feb-2020 17:42:21 GMT; path=/", "SRCHUSR=DOB=20190129; domain=.bing.com; expires=Sun, 23-Feb-2020 17:42:21 GMT; path=/", "_SS=SID=3663B92028EF6137170DB5D3290360AA; domain=.bing.com; path=/", "_EDGE_S=F=1&SID=3663B92028EF6137170DB5D3290360AA; path=/; httponly; domain=bing.com", "_EDGE_V=1; path=/; httponly; expires=Sun, 23-Feb-2020 17:42:21 GMT; domain=bing.com", "MUID=28FF159ADCCA6860301E1969DD26694A; path=/; expires=Sun, 23-Feb-2020 17:42:21 GMT; domain=bing.com", "MUIDB=28FF159ADCCA6860301E1969DD26694A; path=/; httponly; expires=Sun, 23-Feb-2020 17:42:21 GMT"], :strict_transport_security=>"max-age=31536000; includeSubDomains; preload", :x_msedge_ref=>"Ref A: B88A382DA3D84D14B209B23E5CF0DDB6 Ref B: LTSEDGE0521 Ref C: 2019-01-29T17:42:21Z", :date=>"Tue, 29 Jan 2019 17:42:21 GMT"}
 
